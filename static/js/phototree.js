@@ -1,0 +1,1 @@
+var someName = "Hello World";

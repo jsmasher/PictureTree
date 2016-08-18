@@ -1,0 +1,227 @@
+/* Common settings for various HTML tags: Starts */
+/* line 2, ../../static/scss/common.scss */
+* {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* line 9, ../../static/scss/common.scss */
+body, button, input {
+  font: normal 11pt/1.6 "ArialMT", sans-serif;
+}
+
+/* line 13, ../../static/scss/common.scss */
+.lead, .lead button {
+  font: 300 12pt/1.4 "ArialMT", sans-serif;
+}
+
+/* line 17, ../../static/scss/common.scss */
+.lead {
+  margin-bottom: 8px;
+  color: #444;
+}
+
+/* line 22, ../../static/scss/common.scss */
+div,
+article,
+.article,
+section,
+.section,
+aside,
+nav,
+.nav,
+header,
+.header, footer,
+.footer,
+iframe,
+input,
+select,
+textarea,
+.block {
+  display: block;
+}
+
+/* line 41, ../../static/scss/common.scss */
+span, i, b, strong, em, pre, code, a, img, button, .in-block {
+  display: inline-block;
+}
+
+/* line 45, ../../static/scss/common.scss */
+.clearfix {
+  zoom: 1;
+}
+
+/* line 49, ../../static/scss/common.scss */
+.clearfix::after, .clearfix::before {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* line 55, ../../static/scss/common.scss */
+h1 {
+  font-size: 24pt;
+  line-height: 2;
+}
+
+/* line 60, ../../static/scss/common.scss */
+h2 {
+  font-size: 18pt;
+  font-weight: normal;
+  line-height: 2;
+}
+
+/* line 66, ../../static/scss/common.scss */
+button, input[type='button'], input[type='submit'] {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+/* Common settings for various HTML tags: Ends */
+/* Common settings for margin and padding: Starts */
+/* line 73, ../../static/scss/common.scss */
+.m-10 {
+  margin: 10px;
+}
+
+/* line 77, ../../static/scss/common.scss */
+.p-10 {
+  padding: 10px;
+}
+
+/* line 81, ../../static/scss/common.scss */
+.m-20 {
+  margin: 20px;
+}
+
+/* line 85, ../../static/scss/common.scss */
+.p-20, .container {
+  padding: 20px;
+}
+
+/* line 89, ../../static/scss/common.scss */
+.m-30 {
+  margin: 30px;
+}
+
+/* line 93, ../../static/scss/common.scss */
+.p-30 {
+  padding: 30px;
+}
+
+/* line 97, ../../static/scss/common.scss */
+.m-h-10 {
+  margin: 0 10px;
+}
+
+/* line 101, ../../static/scss/common.scss */
+.p-h-10 {
+  padding: 0 10px;
+}
+
+/* line 105, ../../static/scss/common.scss */
+.m-h-20 {
+  margin: 0 20px;
+}
+
+/* line 109, ../../static/scss/common.scss */
+.p-h-20 {
+  padding: 0 20px;
+}
+
+/* line 113, ../../static/scss/common.scss */
+.m-h-30 {
+  margin: 0 30px;
+}
+
+/* line 117, ../../static/scss/common.scss */
+.p-h-30 {
+  padding: 0 30px;
+}
+
+/* line 121, ../../static/scss/common.scss */
+.m-v-10 {
+  margin: 10px 0;
+}
+
+/* line 125, ../../static/scss/common.scss */
+.p-v-10 {
+  padding: 10px 0;
+}
+
+/* line 129, ../../static/scss/common.scss */
+.m-v-20 {
+  margin: 20px 0;
+}
+
+/* line 133, ../../static/scss/common.scss */
+.p-v-20 {
+  padding: 20px 0;
+}
+
+/* line 137, ../../static/scss/common.scss */
+.m-v-30 {
+  margin: 30px 0;
+}
+
+/* line 141, ../../static/scss/common.scss */
+.p-v-30 {
+  padding: 30px 0;
+}
+
+/* Common settings for margin and padding: Ends */
+/* Common settings for text and element alignment: Starts*/
+/* line 147, ../../static/scss/common.scss */
+.center {
+  margin: 0 auto;
+}
+
+/* line 151, ../../static/scss/common.scss */
+.center-text {
+  text-align: center;
+}
+
+/* line 155, ../../static/scss/common.scss */
+.left-text {
+  text-align: left;
+}
+
+/* line 159, ../../static/scss/common.scss */
+.right-text {
+  text-align: right;
+}
+
+/* line 163, ../../static/scss/common.scss */
+.left {
+  float: left;
+}
+
+/* line 167, ../../static/scss/common.scss */
+.right {
+  float: right;
+}
+
+/* Common settings for text and element alignment: Ends*/
+/* Common css for positioning: Start */
+/* line 173, ../../static/scss/common.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 177, ../../static/scss/common.scss */
+.fixed {
+  position: fixed;
+}
+
+/* line 181, ../../static/scss/common.scss */
+.relative {
+  position: relative;
+}
+
+/* Common css for positioning: Ends */
+/* line 186, ../../static/scss/common.scss */
+.hidden {
+  display: none;
+}
